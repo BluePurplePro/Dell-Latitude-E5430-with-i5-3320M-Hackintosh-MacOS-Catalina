@@ -35,6 +35,7 @@ _What's working_:
 
 _Not working_:
 - Airplane Mode Switch
+- Airdrop (Intel Wireless)
 
 _Known issues_:
 - Some apps (Safari, Chrome, Spotify, ect) got graphic artifact/flicker when entering fullscreen mode (Except some games like Asphalt 8)
