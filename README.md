@@ -33,6 +33,9 @@ _What's working_:
 - Battery Status
 - DVD Drive
 
+_Not working_:
+- Airplane Mode Switch
+
 _Known issues_:
 - Some apps (Safari, Chrome, Spotify, ect) got graphic artifact/flicker when entering fullscreen mode (Except some games like Asphalt 8)
 
