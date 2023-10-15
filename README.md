@@ -21,6 +21,7 @@ _The hardware in this Machine is as follows_:
 - Wifi & Bluetooth: Intel Centrino Wireless-N 1030
 - Ethernet: Intel 82579LM Gigabit Network Connection
 - Audio: IDT 92HD93BXX + Intel HDMI Output
+
 _What's working_:
 - iGPU
 - Internal Sound
@@ -31,8 +32,10 @@ _What's working_:
 - Brightness
 - Battery Status
 - DVD Drive
+
 _Known issues_
 - Some apps (Safari, Chrome, Spotify, ect) got graphic artifact/flicker when entering fullscreen mode (Except some games like Asphalt 8)
+
 _Not tested_
 - Express Card Expansion
 - SD Card Reader (I don't have SD Card lying around)
