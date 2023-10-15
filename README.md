@@ -33,13 +33,39 @@ _What's working_:
 - Battery Status
 - DVD Drive
 
-_Known issues_
+_Known issues_:
 - Some apps (Safari, Chrome, Spotify, ect) got graphic artifact/flicker when entering fullscreen mode (Except some games like Asphalt 8)
 
-_Not tested_
+_Not tested_:
 - Express Card Expansion
 - SD Card Reader (I don't have SD Card lying around)
 - VGA Output (I don't have a VGA Monitor)
 - Docking Station (Again, I don't have a Docking Station for Dell Latitude E5430)
 
 # BIOS Settings
+- **General**
+  - Boot Sequence ~> Boot List Option ~> UEFI
+  - Advanced Boot Options ~> Enable Legacy Option ROMs ~> Disabled
+- **System Configuration**
+  - Intergrated NIC ~> Enabled
+  - Parallel Port ~> Disabled
+  - Serial Port ~> Disabled
+  - SATA Operation ~> AHCI
+- **Security**
+  - TPM Security ~> Disabled
+  - CPU XD Support ~> Enabled
+- **Secure Boot**
+  - Secure Boot Enable ~> Disabled
+  - Expert key Management ~> Enable Custom Mode ~> Disabled
+- **Performance**
+  - Multi Core Support ~> All
+  - Intel SpeedStep ~> Enabled
+  - C-States Control ~> Enabled
+  - Intel TurboBoost ~> Enabled
+  - HyperThread control ~> Enabled
+- **POST Behavior**
+  - Fastboot ~> Thorough
+- **Virtualization Support**
+  - Virtualization ~> Enabled
+  - VT for Direct I/O ~> Disabled
+  - Trusted Execution ~> Disabled
