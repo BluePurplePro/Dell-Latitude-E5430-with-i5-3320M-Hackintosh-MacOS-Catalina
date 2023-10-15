@@ -44,6 +44,7 @@ _Not tested_:
 - SD Card Reader (I don't have SD Card lying around)
 - VGA Output (I don't have a VGA Monitor)
 - Docking Station (Again, I don't have a Docking Station for Dell Latitude E5430)
+- SIM Slot (SIM Card might not work in MacOS)
 
 # BIOS Settings
 - **General**
