@@ -17,7 +17,7 @@ _The hardware in this Machine is as follows_:
 - GPU: Intel(R) HD Graphics 4000
 - Mobo: Intel QM77 Chipset
 - Drive: Kingston SA400S37 120GB
-- TouchPad: PS2 Alps Touchpad
+- Keyboard & TouchPad: PS2 Keyboard & PS2 Alps Touchpad
 - Wifi & Bluetooth: Intel Centrino Wireless-N 1030
 - Ethernet: Intel 82579LM Gigabit Network Connection
 - Audio: IDT 92HD93BXX + Intel HDMI Output
