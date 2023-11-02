@@ -13,11 +13,11 @@ To deploy this project properly, please obtain the EFI folder from this reposito
 
 # Documentation
 _The hardware in this Machine is as follows_:
-- CPU: Intel Core i5-4590S
-- GPU: Intel(R) HD Graphics 4600
+- CPU: Intel Core i5-3320M
+- GPU: Intel(R) HD Graphics 4000
 - Mobo: Intel QM77 Chipset
 - Drive: Kingston SA400S37 120GB
-- TouchPad: Alps Touchpad
+- TouchPad: PS2 Alps Touchpad
 - Wifi & Bluetooth: Intel Centrino Wireless-N 1030
 - Ethernet: Intel 82579LM Gigabit Network Connection
 - Audio: IDT 92HD93BXX + Intel HDMI Output
