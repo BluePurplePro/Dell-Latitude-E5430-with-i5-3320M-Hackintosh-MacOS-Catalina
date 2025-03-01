@@ -97,7 +97,7 @@ To deploy this project properly, please obtain the EFI folder from this reposito
 ## Known issue(s):
 - Some apps (Chess.app, Safari, etc) got graphic artifacts/flickering when entering fullscreen mode
 > [!NOTE]
-> Downgrading the BIOS to A03 will fix graphic artifacts/flickering issue.
+> [Downgrading the BIOS to A03](https://github.com/BluePurplePro/Dell-Latitude-E5430-Hackintosh/blob/main/Downgrade_Dell_Latitude_E5430_BIOS.md) will fix graphic artifacts/flickering issue.
 
 ## Not working:
 - AppleIntelPowerManagement (CFG Lock)
