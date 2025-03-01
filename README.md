@@ -1,5 +1,5 @@
-# Dell-Latitude-E5430-with-i5-3320M-Hackintosh-MacOS-Catalina
-This repository and project hosts the files necessary to boot macOS Catalina successfully on the Dell Latitude E5430 Laptop 
+# Dell-Latitude-E5430-Hackintosh
+This repository and project hosts the files necessary to boot macOS successfully on the Dell Latitude E5430 Laptop 
 ![Dell Latitude E5430](https://github.com/BluePurplePro/Dell-Latitude-E5430-with-i5-3320M-Hackintosh-MacOS-Catalina/assets/84092284/dc9655ca-ae35-4149-9db8-462ecfeacc6c)
 
 # DISCLAIMER
@@ -19,13 +19,15 @@ To deploy this project properly, please obtain the EFI folder from this reposito
 _The hardware in this Machine is as follows_:
 - CPU: Intel Core i5-3320M
 - GPU: Intel(R) HD Graphics 4000
-- Monitor resolution: 1366x768
-- Mobo: Intel QM77 Chipset
-- Drive: Kingston SA400S37 120GB
+- Display Resolution: 1366x768
+- Mobo: Dell 04V77Y Rev. A00
+- SATA Drive: Kingston SA400S37 120GB
+- DVD Drive: MATSHITA DVD+-RW UJ8D1
 - Keyboard & TouchPad: PS2 Keyboard & PS2 Alps Touchpad
 - Wifi & Bluetooth: Intel Centrino Wireless-N 1030
 - Ethernet: Intel 82579LM Gigabit Network Connection
 - Audio: IDT 92HD93BXX + Intel HDMI Output
+- BIOS version: A21
 
 # Drivers & Essential Kernel Extensions
 | Required Drivers | Essential Kexts |
@@ -44,7 +46,7 @@ _The hardware in this Machine is as follows_:
 | IDT 92HD93BXX  | [AppleALC.kext](https://github.com/acidanthera/AppleALC)  |
 
 > [!IMPORTANT]
-> For 1600x900 monitor, go to DeviceProperties ~> Add ~> PciRoot(0x0)/Pci(0x2,0x0) and change ``AAPL,ig-platform-id`` value to ``04006601`` 
+> Display with 1600x900 resolution have to change ``AAPL,ig-platform-id`` value to ``04006601`` in DeviceProperties ~> Add ~> PciRoot(0x0)/Pci(0x2,0x0)
 
 # Result
 _Working_:
@@ -62,49 +64,40 @@ _Partially working_:
 - Sleep
 - USB ports
 > [!NOTE]
-> My USB 2.0 port (near the 3.5mm Audio Jack) is broken, be sure to map your using [USBToolBox](https://github.com/USBToolBox/tool)
+> Re-mapping USB using [USBToolBox](https://github.com/USBToolBox/tool) might be necessary, since my laptop doesn't have built-in Camera, and the USB 2.0 port (near the 3.5mm Audio Jack) is broken.
 
 _Not working_:
 - Airplane Mode Switch
-- Airdrop
-- VGA Output
+- Airdrop (Intel Wireless)
+- VGA Output (Analog)
 
 _Not tested_:
 - Express Card Expansion
-- SD Card Reader (I don't have SD Card lying around)
-- Docking Station (Again, I don't have a Docking Station for Dell Latitude E5430)
-- SIM Slot (SIM Card might not work in MacOS)
+- SD Card Reader (Mine is broken)
+- Docking Station (I don't have a Docking Station for Dell Latitude E5430)
+- SIM Slot (I don't have a WWAN Card, although [some one does make it work in MacOS though](https://github.com/xmm7360/xmm7360-usb-modeswitch))
 
-_Known issues_:
-- Some apps (Safari, Chrome, Spotify, ect) got graphic artifact/flicker when entering fullscreen mode (Asphalt 8 is the exception)
+_Known issue(s)_:
+- Some apps (Chess.app, Safari, etc) got graphic artifacts/flickering when entering fullscreen mode. Downgrading the BIOS to A03 will fix this issue.
 
-# BIOS Settings
+# BIOS Settings (A21 BIOS)
 - **General**
   - Boot Sequence ~> Boot List Option ~> UEFI
-  - Advanced Boot Options ~> Enable Legacy Option ROMs ~> Disabled
 - **System Configuration**
   - Intergrated NIC ~> Enabled
   - Parallel Port ~> Disabled
   - Serial Port ~> Disabled
   - SATA Operation ~> AHCI
 - **Security**
-  - TPM Security ~> Disabled
   - CPU XD Support ~> Enabled
 - **Secure Boot**
   - Secure Boot Enable ~> Disabled
-  - Expert key Management ~> Enable Custom Mode ~> Disabled
-- **Performance**
-  - Multi Core Support ~> All
-  - Intel SpeedStep ~> Enabled
-  - C-States Control ~> Enabled
-  - Intel TurboBoost ~> Enabled
-  - HyperThread control ~> Enabled
 - **POST Behavior**
   - Fastboot ~> Thorough
 - **Virtualization Support**
   - Virtualization ~> Enabled
-  - Trusted Execution ~> Disabled
   - VT for Direct I/O ~> Disabled
+  - Trusted Execution ~> Disabled
 > [!NOTE]
 > ``VT for Direct I/O`` could be enabled if ``DisableIoMapper`` (under Kernel ~> Quirk) is Enabled
   
