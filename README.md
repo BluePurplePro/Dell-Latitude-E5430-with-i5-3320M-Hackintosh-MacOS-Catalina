@@ -100,12 +100,12 @@ To deploy this project properly, please obtain the EFI folder from this reposito
 > [Downgrading the BIOS to A03](https://github.com/BluePurplePro/Dell-Latitude-E5430-Hackintosh/blob/main/Downgrade_Dell_Latitude_E5430_BIOS.md) will fix graphic artifacts/flickering issue.
 
 ## Not working:
-- AppleIntelPowerManagement (CFG Lock)
 - Airplane Mode Switch
 - Airdrop (Intel Wireless)
 - VGA Output (Analog)
+- AppleIntelPowerManagement (CFG Lock)
 > [!NOTE]
-> Follow this guide to turn off CFG-Lock on Dell Sandy/Ivy Bridge
+> Follow [this guide](https://github.com/BluePurplePro/Disable-CFG-Lock-Dell-Machines) to turn off CFG-Lock on Dell Latitude E5430
 
 _Not tested_:
 - Express Card Expansion
