@@ -95,7 +95,7 @@ To deploy this project properly, please obtain the EFI folder from this reposito
 > Re-mapping USB using [USBToolBox](https://github.com/USBToolBox/tool) might be necessary (since the USB 2.0 port next to the 3.5mm Audio Jack in my laptop is broken)
 
 ## Known issue(s):
-- Some apps (Chess.app, Safari, etc) got graphic artifacts/flickering when entering fullscreen mode
+- Some apps like Chess.app, Safari.app, etc got graphic artifacts/flickering when entering fullscreen mode
 > [!NOTE]
 > [Downgrading the BIOS to A03](https://github.com/BluePurplePro/Dell-Latitude-E5430-Hackintosh/blob/main/Downgrade_Dell_Latitude_E5430_BIOS.md) will fix graphic artifacts/flickering issue.
 
