@@ -73,4 +73,23 @@ This is a step-by-step guide on how to downgrade Dell Latitude E5430 from A21 to
   - VT for Direct I/O ~> Disabled
   - Trusted Execution ~> Disabled
 
+## BIOS Settings (A07)
+- **General**
+  - Boot Sequence ~> Boot List Option ~> UEFI
+- **System Configuration**
+  - Intergrated NIC ~> Enabled
+  - Parallel Port ~> Disabled
+  - Serial Port ~> Disabled
+  - SATA Operation ~> AHCI
+- **Security**
+  - CPU XD Support ~> Enabled
+- **Secure Boot**
+  - Secure Boot Enable ~> Disabled
+- **POST Behavior**
+  - Fastboot ~> Thorough
+- **Virtualization Support**
+  - Virtualization ~> Enabled
+  - VT for Direct I/O ~> Disabled
+  - Trusted Execution ~> Disabled
+
 
