@@ -54,7 +54,7 @@ This is a step-by-step guide on how to downgrade Dell Latitude E5430 from A21 to
 - After done flashing, the system will reboot. Press ``F2`` to enter BIOS and change some settings for MacOS
 
 > [!NOTE]
-> It is safe to update BIOS to A07. The graphic artifacts/flickering won't come back though
+> It is safe to update BIOS from A03 to A07. The graphic artifacts/flickering won't come back though
 
 ## BIOS Settings (A03)
 - **General**
