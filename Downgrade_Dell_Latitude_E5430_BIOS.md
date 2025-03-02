@@ -1,5 +1,8 @@
 # Introduction
 This is a step-by-step guide on how to downgrade Dell Latitude E5430 from A21 to A03 BIOS, fixing graphic artifacts/flickering when entering fullscreen mode.
+
+<video src="https://github.com/user-attachments/assets/eac22928-008e-4244-be02-058210d6261d" width="1920" height="1080"></video>
+
 > [!WARNING]
 > PROCEED WITH CAUTION!! If you have any concerns about this procedure before following, YOU are choosing to make these modifications. I'm not responsible for bricked devices.
 
