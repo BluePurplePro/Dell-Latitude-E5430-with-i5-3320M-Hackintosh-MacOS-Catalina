@@ -15,6 +15,21 @@ THIS INFORMATION/RESEARCH HAS BEEN DONE AND SHARED PURELY FOR EXPERIMENTAL AND R
 # Deployment
 To deploy this project properly, please obtain the EFI folder from this repository, edit the config.plist to generate new serial number, rom, UUID, etcetera, then save config.plist, and place the files onto the appropriate ESP EFI partition in order to boot using OpenCore bootloader and proceed with your installation of macOS.
 
+# Hardware
+- The hardware in this Machine is as follows:
+  - CPU: Intel Core i5-3320M
+  - GPU: Intel(R) HD Graphics 4000
+  - Display Resolution: 1366x768
+  - Mobo: Dell 04V77Y Rev. A00
+  - SATA Drive: Kingston SA400S37 120GB
+  - DVD Drive: MATSHITA DVD+-RW UJ8D1
+  - Keyboard & TouchPad: PS2 Keyboard & PS2 Alps Touchpad
+  - Wifi & Bluetooth: Intel Centrino Wireless-N 1030
+  - Ethernet: Intel 82579LM Gigabit Network Connection
+  - Audio: IDT 92HD93BXX + Intel HDMI Output
+  - BIOS version: A21
+- Click [here](https://www.dell.com/support/manuals/en-us/latitude-e5430/delllatitudee5430_om-v1/specifications?guid=guid-dc451241-36f9-4f68-bf76-de4751505456&lang=en-us) for more information about the specifications
+
 # BIOS Settings (A21 BIOS)
 - **General**
   - Boot Sequence ~> Boot List Option ~> UEFI
@@ -35,21 +50,6 @@ To deploy this project properly, please obtain the EFI folder from this reposito
   - Trusted Execution ~> Disabled
 > [!NOTE]
 > ``VT for Direct I/O`` could be enabled if ``DisableIoMapper`` (under Kernel ~> Quirk) is Enabled
-
-# Hardware
-- The hardware in this Machine is as follows:
-  - CPU: Intel Core i5-3320M
-  - GPU: Intel(R) HD Graphics 4000
-  - Display Resolution: 1366x768
-  - Mobo: Dell 04V77Y Rev. A00
-  - SATA Drive: Kingston SA400S37 120GB
-  - DVD Drive: MATSHITA DVD+-RW UJ8D1
-  - Keyboard & TouchPad: PS2 Keyboard & PS2 Alps Touchpad
-  - Wifi & Bluetooth: Intel Centrino Wireless-N 1030
-  - Ethernet: Intel 82579LM Gigabit Network Connection
-  - Audio: IDT 92HD93BXX + Intel HDMI Output
-  - BIOS version: A21
-- Click [here](https://www.dell.com/support/manuals/en-us/latitude-e5430/delllatitudee5430_om-v1/specifications?guid=guid-dc451241-36f9-4f68-bf76-de4751505456&lang=en-us) for more information about the specifications
 
 # Drivers & Essential Kernel Extensions
 | Required Drivers | 
