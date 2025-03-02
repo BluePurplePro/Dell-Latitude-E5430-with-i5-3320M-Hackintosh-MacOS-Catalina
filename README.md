@@ -92,7 +92,7 @@ To deploy this project properly, please obtain the EFI folder from this reposito
 - Sleep
 - USB ports (the USB 2.0 port next to the 3.5mm Audio Jack in my laptop is broken)
 > [!NOTE]
-> Re-mapping USB using [USBToolBox](https://github.com/USBToolBox/tool) might be necessary (since the USB 2.0 port next to the 3.5mm Audio Jack in my laptop is broken)
+> It is necessary to re-map USB using [USBToolBox](https://github.com/USBToolBox/tool), since the USB 2.0 port next to the 3.5mm Audio Jack in my laptop is broken
 
 ## Known issue(s):
 - Some apps like Chess.app, Safari.app, etc got graphic artifacts/flickering when entering fullscreen mode
