@@ -20,7 +20,9 @@ This is a step-by-step guide on how to downgrade Dell Latitude E5430 from A21 to
 ![03  BIOS file in USB MS-DOS](https://github.com/user-attachments/assets/47a640f9-e56f-4917-9e74-4753ddffd629)
 
 > [!NOTE]
-> More information about A03 BIOS could be found here ([vPro](https://www.dell.com/support/home/en-us/drivers/driversdetails?driverid=7pvyc&oscode=biosa&productcode=latitude-e5430) & [non-vPro](https://www.dell.com/support/home/en-us/drivers/driversdetails?driverid=c8y58&oscode=biosa&productcode=latitude-e5430))
+> More information about A03 BIOS could be found here
+> - [vPro](https://www.dell.com/support/home/en-us/drivers/driversdetails?driverid=7pvyc&oscode=biosa&productcode=latitude-e5430)
+> - [non-vPro](https://www.dell.com/support/home/en-us/drivers/driversdetails?driverid=c8y58&oscode=biosa&productcode=latitude-e5430)
 
 ## Boot from the USB
 - Restart the system and press ``F2``. Click ``Load Defaults`` ~> ``OK`` and press Exit
