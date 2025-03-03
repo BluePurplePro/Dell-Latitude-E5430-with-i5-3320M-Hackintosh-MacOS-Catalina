@@ -33,7 +33,7 @@ This is a step-by-step guide on how to downgrade Dell Latitude E5430 from A21 to
 
 ![04  Press F12 and choose MS-DOS USB boot](https://github.com/user-attachments/assets/ad0c95ed-3197-4b45-b488-3a24fc73e321)
 
-- Type the BIOS file in the USB (``5430A03.exe`` or ``5430A03V.exe``)
+- Type the BIOS file (``5430A03.exe`` or ``5430A03V.exe``) and press Enter
 
 ![05  Type the BIOS file inside the USB](https://github.com/user-attachments/assets/433c669c-cfce-49c3-b25e-18f20cd42828)
 
