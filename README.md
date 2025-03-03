@@ -28,7 +28,7 @@ To deploy this project properly, please obtain the EFI folder from this reposito
   - Ethernet: Intel 82579LM Gigabit Network Connection
   - Audio: IDT 92HD93BXX + Intel HDMI Output
   - BIOS version: A21
-- Click [here](https://www.dell.com/support/manuals/en-us/latitude-e5430/delllatitudee5430_om-v1/specifications?guid=guid-dc451241-36f9-4f68-bf76-de4751505456&lang=en-us) for more information about the specifications
+- Click [here](https://www.dell.com/support/manuals/en-us/latitude-e5430/delllatitudee5430_om-v1/specifications?guid=guid-dc451241-36f9-4f68-bf76-de4751505456&lang=en-us) for more information about the laptop's specifications
 
 # BIOS Settings (A21 BIOS)
 - **General**
