@@ -11,7 +11,7 @@ This is a step-by-step guide on how to downgrade Dell Latitude E5430 from A21 to
 
 ![01  Create MS-DOS USB](https://github.com/user-attachments/assets/430ae67d-e52b-48e6-bed1-471ad6407458)
 
-- Download [Dell Latitude E5430 A03 BIOS.zip](https://github.com/user-attachments/files/19036277/Dell.Latitude.E5430.A03.BIOS.zip). After that, copy the BIOS file (Latitude E5430 has 2 BIOS variants: vPro and non-Vpro) to the thumb drive.
+- Download [Dell Latitude E5430 A03 BIOS.zip](https://github.com/user-attachments/files/19036277/Dell.Latitude.E5430.A03.BIOS.zip). After that, copy the BIOS file (Latitude E5430 has 2 BIOS variants: vPro and non-vPro) to the thumb drive.
 
 ![02  Copy BIOS file into USB](https://github.com/user-attachments/assets/ff5f8e5b-03af-473a-a722-d3eef659e0a9)
 
