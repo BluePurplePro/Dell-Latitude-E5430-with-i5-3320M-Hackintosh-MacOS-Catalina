@@ -113,4 +113,4 @@ _Not tested_:
 - Express Card Expansion
 - SD Card Reader (Mine is broken)
 - Docking Station (I don't have a Docking Station for Dell Latitude E5430)
-- SIM Slot (I don't have a WWAN Card, although [some one does make it work in MacOS though](https://github.com/xmm7360/xmm7360-usb-modeswitch))
+- SIM Slot (I don't have a WWAN Card, but [someone does make it work in MacOS though](https://github.com/xmm7360/xmm7360-usb-modeswitch))
