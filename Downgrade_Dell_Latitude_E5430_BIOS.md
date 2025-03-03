@@ -53,7 +53,7 @@ This is a step-by-step guide on how to downgrade Dell Latitude E5430 from A21 to
 
 ![10  Press F11 to Proceed](https://github.com/user-attachments/assets/43376135-455f-4a3a-a866-89f4736404e7)
 
-- After done flashing, the system will reboot. Press ``F2`` to enter BIOS and change some settings for MacOS
+- The system will reboot automatically after flashing. Press ``F2`` to enter BIOS and change some settings for MacOS to boot
 
 ## BIOS Settings (A03)
 - **General**
