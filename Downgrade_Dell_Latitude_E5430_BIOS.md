@@ -4,7 +4,7 @@ This is a step-by-step guide on how to downgrade Dell Latitude E5430 from A21 to
 <video src="https://github.com/user-attachments/assets/eac22928-008e-4244-be02-058210d6261d" width="1920" height="1080"></video>
 
 >[!Note]
->It's safe to upgrade the BIOS from A03 to A12 for modern BIOS features without having graphic artifacts/flickering on MacOS
+>It's safe to upgrade the BIOS from A03 to A12 for modern BIOS features without having graphic artifacts/flickering on MacOS.
 >
 >That being said, downgrading from A21 to A03 is a must to fix the graphic artifacts/flickering on MacOS. Downgrading from A21 to A12 won't fix this issue.
 
@@ -58,4 +58,4 @@ This is a step-by-step guide on how to downgrade Dell Latitude E5430 from A21 to
 
 ![10  Press F11 to Proceed](https://github.com/user-attachments/assets/43376135-455f-4a3a-a866-89f4736404e7)
 
-- The system will reboot automatically after flashing. 
+- The system will reboot automatically after flashing. Now go to the BIOS and [change some settings](https://github.com/BluePurplePro/Dell-Latitude-E5430-Hackintosh#bios-settings-from-a07-to-a21-bios) for MacOS to boot. 
