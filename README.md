@@ -30,7 +30,7 @@ To deploy this project properly, please obtain the EFI folder from this reposito
   - BIOS version: A21
 - Click [here](https://www.dell.com/support/manuals/en-us/latitude-e5430/delllatitudee5430_om-v1/specifications?guid=guid-dc451241-36f9-4f68-bf76-de4751505456&lang=en-us) for more information about the laptop's specifications
 
-# BIOS Settings (A21 BIOS)
+# BIOS Settings (from A07 to A21 BIOS)
 - **General**
   - Boot Sequence ~> Boot List Option ~> UEFI
 - **System Configuration**
