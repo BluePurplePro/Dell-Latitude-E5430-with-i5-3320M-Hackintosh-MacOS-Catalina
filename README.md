@@ -95,7 +95,7 @@ To deploy this project properly, please obtain the EFI folder from this reposito
 > It is necessary to re-map USB using [USBToolBox](https://github.com/USBToolBox/tool), since the USB 2.0 port next to the 3.5mm Audio Jack in my laptop is broken
 
 ## Known issue(s):
-- Some apps like Chess.app, Safari.app, etc got graphic artifacts/flickering when entering fullscreen mode
+- Some apps like Chess.app, Safari.app, etc got graphic artifacts/flickering when entering fullscreen mode (this flickering issue only affect 1366x768 screen, 1600x900 screen does not have this issue)
 <video src="https://github.com/user-attachments/assets/eac22928-008e-4244-be02-058210d6261d" width="1920" height="1080"></video>
 
 > [!NOTE]
