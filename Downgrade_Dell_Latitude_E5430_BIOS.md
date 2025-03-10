@@ -20,7 +20,7 @@ This is a step-by-step guide on how to downgrade Dell Latitude E5430 (1366x768 d
 
 ![02  Copy BIOS file into USB](https://github.com/user-attachments/assets/ff5f8e5b-03af-473a-a722-d3eef659e0a9)
 
-- The thum drive should look like this (mine is non-vPro)
+- The thumb drive should look like this (mine is non-vPro)
 
 ![03  BIOS file in USB MS-DOS](https://github.com/user-attachments/assets/47a640f9-e56f-4917-9e74-4753ddffd629)
 
