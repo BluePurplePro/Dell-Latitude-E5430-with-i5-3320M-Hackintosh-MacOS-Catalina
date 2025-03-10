@@ -74,7 +74,7 @@ To deploy this project properly, please obtain the EFI folder from this reposito
 | IDT 92HD93BXX  | [AppleALC.kext](https://github.com/acidanthera/AppleALC) with layoutid ``12`` |
 
 > [!IMPORTANT]
-> Display with 1600x900 resolution have to change ``AAPL,ig-platform-id`` value to ``04006601`` in DeviceProperties ~> Add ~> PciRoot(0x0)/Pci(0x2,0x0)
+> 1600x900 display requires changing ``AAPL,ig-platform-id`` value from ``03006601`` to ``04006601`` in DeviceProperties ~> Add ~> PciRoot(0x0)/Pci(0x2,0x0)
 
 # Result
 ## Working:
